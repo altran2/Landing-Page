@@ -1,13 +1,25 @@
-.body {
-  background: grey;
+body {
+  font-family: "adam";
+  color: white;
+  background: black;
+}
+
+@font-face {
+  font-family: "adam";
+  src: url("../fonts/ADAM.CG PRO.otf");
 }
 
 .navbar {
   margin-bottom: 0px;
+  background: black;
 }
 
 .navbar-inverse {
   height: 120px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
 }
 
 .navbar-brand-centered {
@@ -15,22 +27,22 @@
   left: 20px;
   width: 100%;
   text-align: center;
-  background-color: transparent;
   font-size: 50px;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 img.animated-gif {
   width: 500px;
   height: auto;
+  margin-top: 5px;
 }
 
 .jumbotron {
   text-align: center;
+  background: #868685;
 }
 
 .benefits {
-  margin-top: 25px;
   text-align: center;
 }
 
@@ -42,13 +54,14 @@ legend {
   font-weight: bold;
   font-size: 30px;
   text-align: center;
+  color: white;
+}
+
+#Donate {
+  color: white;
 }
 
 form {
   font-weight: bold;
   font-size: 18px;
-}
-
-.button {
-  font-size: 50px;
 }
