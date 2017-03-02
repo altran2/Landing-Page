@@ -37,7 +37,7 @@ body {
 }
 
 img.animated-gif {
-  max-width: 88%;
+  max-width: 90%;
   height: auto;
   margin-top: 5px;
 }
@@ -69,5 +69,5 @@ legend {
 form {
   font-weight: bold;
   font-size: 18px;
-  margin: -5px 0px 20px 0px
+  margin: 5px 0px 20px 0px
 }
